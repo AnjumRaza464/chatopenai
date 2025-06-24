@@ -17,4 +17,4 @@ jobs:
       - name: Push to hub
         env:
           HF_TOKEN: ${{ secrets.HF_TOKEN }}
-        run: git push https://AnjumRaza:$HF_TOKEN@huggingface.co/chatopen/AnjumRaza/chatopen main
+        run: git push https://AnjumRaza:$HF_TOKEN@huggingface.co/spaces/AnjumRaza/chatopen main
