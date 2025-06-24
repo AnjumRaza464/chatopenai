@@ -33,7 +33,7 @@ def get_response(question, api_key, llm,temperature, max_tokens):
     return answer
 
 ## Title of the app
-st.title('BNB Chatbot')
+st.title('BNB Chatbot App')
 
 ## sidebar for settings
 st.sidebar.title('Settings')
